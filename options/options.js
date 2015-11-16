@@ -1,13 +1,13 @@
 $(function() {
   var defaultOptions = {
-    "positive-keywords": ":+1:\nlgtm\n:thumbsup:",
+    "positive-keywords": ":+1:\nlgtm\n:thumbsup:\n:sushi:\n:meat_on_bone:",
     "negative-keywords": ":-1:\n:thumbsdown:",
 
-    "disable-merge": false,
+    "disable-merge": true,
     "disable-merge-threshold": 2,
 
-    "disable-wip": false,
-    "disable-wip-keywords": "wip\ndo not merge",
+    "disable-wip": true,
+    "disable-wip-keywords": "wip\ndo not merge\ndnm",
 
     "change-favicon": true
   }
